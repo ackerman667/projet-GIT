@@ -1,0 +1,41 @@
+#include "DHT.h"     
+          
+#define DHTPIN A1
+#define DHTTYPE DHT22    // DHT11 sinon
+
+DHT dht(DHTPIN, DHTTYPE);
+
+void setup() 
+{
+  // On initialise la connexion série
+  Serial.begin(9600);
+  delay(3000);
+
+  // On imprime un texte de bienvenu
+  Serial.println("Salut je me réveille");
+  Serial.println("-----");
+}
+
+void loop() 
+{
+  // On récupère la température de l'air
+  double dTempExt = dht.readTemperature();
+
+  // On imprime la température de l'air
+  Serial.print("Température de l'air: ");
+  Serial.print(dTempExt);
+  Serial.println("°C");
+
+  // On récupère la température de l'air
+  double dHumidExt = dht.readHumidity();
+  
+  // On imprime l'humidité de l'air
+  Serial.print("Humidité de l'air: ");
+  Serial.print(dHumidExt);
+  Serial.println("%");
+
+  Serial.println("-----");
+
+  // On attends 5 secondes
+  delay(5000);
+}
