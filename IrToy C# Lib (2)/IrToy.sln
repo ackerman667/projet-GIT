@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IrToyLibrary", "IrToyLib\IrToyLibrary.csproj", "{BAF5DFE1-AADC-489C-93A1-CD26567596DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IrToyExample", "IrToyExample\IrToyExample.csproj", "{1FFBC69E-3C10-4086-ACF2-8478D186DA8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A432B637-511D-42DE-BB7F-D4CF2C60CCFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A432B637-511D-42DE-BB7F-D4CF2C60CCFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A432B637-511D-42DE-BB7F-D4CF2C60CCFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A432B637-511D-42DE-BB7F-D4CF2C60CCFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAF5DFE1-AADC-489C-93A1-CD26567596DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAF5DFE1-AADC-489C-93A1-CD26567596DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAF5DFE1-AADC-489C-93A1-CD26567596DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAF5DFE1-AADC-489C-93A1-CD26567596DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FFBC69E-3C10-4086-ACF2-8478D186DA8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FFBC69E-3C10-4086-ACF2-8478D186DA8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FFBC69E-3C10-4086-ACF2-8478D186DA8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FFBC69E-3C10-4086-ACF2-8478D186DA8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+Z:\C#\Projekte Visual Studio 2008\Applikationen (PC)\IrToy\IrToyLib\bin\Debug\IrToyLib.dll
+Z:\C#\Projekte Visual Studio 2008\Applikationen (PC)\IrToy\IrToyLib\bin\Debug\IrToyLib.pdb
+Z:\C#\Projekte Visual Studio 2008\Applikationen (PC)\IrToy\IrToyLib\obj\Debug\ResolveAssemblyReference.cache
+Z:\C#\Projekte Visual Studio 2008\Applikationen (PC)\IrToy\IrToyLib\obj\Debug\IrToyLib.dll
+Z:\C#\Projekte Visual Studio 2008\Applikationen (PC)\IrToy\IrToyLib\obj\Debug\IrToyLib.pdb
